@@ -53,25 +53,22 @@ tr.head th:last-child {
 }
 
 fieldset {
-    width: 310px;
-    margin-top: 20px;
+    width: 350px;
+    margin-top: 30px;
     border: 1px solid #d6d6d6;
-    background-color: #ffffff;
+    background-color: #fff;
     line-height: 2em;
-    box-shadow: 
-        2px 2px 1px #d6d6d6,
-        -2px -2px 1px #d6d6d6;
 }
 
 legend {
     font-style: italic;
-    color: #666666;
+    color: #666;
 }
 
 input[type="text"] {
-    width: 150px;
+    width: 200px;
     border: 1px solid #d6d6d6;
-    padding: 5px;
+    padding: 2px;
     outline: none;
 }
 
@@ -83,17 +80,14 @@ input[type="text"]:hover {
 
 input[type="submit"] {
     border: 1px solid #006633;
-    background-color: #009966;
-    color: #ffffff;
+    background-color: #00CC33;
+    color: #fff;
     border-radius: 5px;
     padding: 5px;
     margin-top: 10px;
 }
 
-input[type="submit"]:hover {
-    border: 1px solid #006633;
-    background-color: #00CC33;
-    color: #fff;
+input[type="submit"]:hover {   
     cursor: pointer;
 }
 
@@ -104,12 +98,6 @@ input[type="submit"]:hover {
 }
 
 .submit {
-    width: 333px;
+    width: 375px;
     text-align: right;
-}
-
-tr.head th::first-letter {
-    font-size: 1.5rem;
-    color: brown;
-    font-weight: bold;
 }
